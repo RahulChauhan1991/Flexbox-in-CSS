@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin:5px;
+}
+i{
+    margin:5px;
+}
+
+.top p{
+    margin: 0px;
+}
+.container{
+width: 962px;
+height: 427px;
+padding: 32px 48px 32px 48px;
+gap:32px;
+background-color:#F4F2FD;
+display:flex;
+}
+.free{
+width: Fixed (262px);
+height: Fixed (363px);
+padding:20px;
+border-radius: 8px;
+gap: 32px;
+background-color:#FFFFFF;
+}
+.cost{
+    font-size: 40px;
+}
+.checks{
+    margin: 20px 0;
+    font-size: 0.85rem;
+}
+.top{
+    margin: 20px 0;
+}
+.basic{
+width: Fixed (262px);
+height: Fixed (363px);
+padding: 20px;
+border-radius: 8px;
+background-color:#202842;
+color: white;
+}
+.pro{
+width: Fixed (262px);
+height: Fixed (363px);
+padding: 20px;
+border-radius: 8px;
+background-color: #FFFFFF;
+}
+button{
+    width: 130px;
+    height: 35px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.free button,.pro button{
+    background-color: #202842;
+    color: white;
+}
+.basic button{
+    background-color:#FFFFFF;
+}
